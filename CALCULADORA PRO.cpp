@@ -11,11 +11,9 @@ int main(){
 	cout<<"Dame otro numero: \n";
 	cin>>y;
 	int w;
-	cout<<"Presiona el numero de acuerdo a lo que quieras: \n Suma:1\n Resta:2\n Multiplicacion:3\n Division:4\n Exponencial:5\n";
-	cin>>w;
 	while (w<1||w>5){
 	cout<<"Presiona el numero de acuerdo a lo que quieras: \n Suma:1\n Resta:2\n Multiplicacion:3\n Division:4\n Exponencial:5\n";	
-	cin>>w; //Le quito esta y pues loopea el texto de arriba 
+	cin>>w; 
 	}
 	switch(w){
 	case 1: 	
