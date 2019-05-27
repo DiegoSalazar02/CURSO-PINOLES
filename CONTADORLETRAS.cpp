@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	char x[100];
+	char x[/*inserte numero aqui*/];
 	int y=0;
 	cout<<"Escribe lo que quieras \n";
 	cin.getline(x,100);

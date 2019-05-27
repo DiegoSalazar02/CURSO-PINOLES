@@ -3,11 +3,11 @@
 using namespace std;
 
 int main(){
-	char x[30];
+	char x[/*Pones numero aqui pa que jale el codigo*/];
 	int a=0; int e=0; int i=0; int o=0; int u=0;
-	cout<<"Dame una frase (100 palabras maximo) \n";
-	cin.getline(x,30);
-	for(int i=0;i<=30;i++){
+	cout<<"Dame una frase \n";
+	cin.getline(x,100);
+	for(int i=0;i<=99;i++){
 		switch (x[i]){
 			case 'a': a++;
 			break;	
