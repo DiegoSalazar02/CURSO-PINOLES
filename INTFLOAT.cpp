@@ -4,7 +4,9 @@ using namespace std;
 
 int main (){
 	float x;
-	float y; 
+
+	float y;
+	 
 	cout<< "Dame un numero: \n"; 
 	cin>> x;
 	cout<< "Dame otro numero: \n ";
