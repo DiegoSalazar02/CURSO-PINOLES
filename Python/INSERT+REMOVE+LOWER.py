@@ -4,7 +4,7 @@ print("Dime 5 colores")
 for i in range(5):
     aux=input()
     x.append(aux)
-print("Los colorcitos son of shit: \n")
+print("Los colorcitos son: \n")
 print(x)
 print("\n")
 #Recorre palabras
@@ -16,5 +16,5 @@ for j in range(len(x)):
             x.remove(x[j])
             x.insert(j,'')
             break
-print("Los colorcitos sin 'a' son of shit: \n")
+print("Los colorcitos sin 'a' son: \n")
 print(x)
